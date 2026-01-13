@@ -1,0 +1,72 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#contract-container {
+    background: white;
+    width: 180mm; 
+    min-height: 210mm;
+    padding: 5mm;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+h1 { 
+    text-align: center; 
+    color: #000000; 
+    border-bottom: 
+    2px solid #000000; 
+}
+
+h2 { color: #000000; 
+    margin-top: 25px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    text-align: center;
+}
+
+th { 
+    background-color: #ecf0f1; 
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left; 
+    margin: 0 auto;
+}
+
+.signature-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.signature {
+    width: 200px;
+    text-align: center;
+}
+
+.toolbar { margin-bottom: 20px; }
+#download-btn {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
